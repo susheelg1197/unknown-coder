@@ -36,6 +36,6 @@ app.get('/', (req, res) => {
 
 app.post('/test/', testCode);
 
-app.listen(5000, () =>
+app.listen(process.env.PORT || 3030, () =>
   console.log(`Listening on port 5000.`),
 );
