@@ -12,13 +12,14 @@
     "interview"
   ],
   "engines": {
-    "node":"12.x"
+    "node": "12.x"
   },
   "author": "Susheel Gounder",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "golang": "^0.1.5-stable",
     "merge-descriptors": "^1.0.1"
   }
 }

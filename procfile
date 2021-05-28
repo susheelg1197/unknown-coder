@@ -1,1 +1,2 @@
-worker: node app.js && go run code/abcd.go
+web: node app.js 
+worker: go run code/abcd.go
